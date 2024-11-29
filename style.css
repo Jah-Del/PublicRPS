@@ -1,0 +1,57 @@
+#button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#image1{
+    border: solid #39ff14;
+}
+#image2{
+    border: solid #39ff14;
+}
+#image3{
+    border: solid #39ff14;
+}
+.hover:hover {background-color: #39ff14;}
+
+body{
+    background-color: ;
+}
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #39ff14,
+      0 0 82px #39ff14,
+      0 0 92px #39ff14,
+      0 0 102px #39ff14,
+      0 0 151px #39ff14;
+}
+
+/* Additional styling */
+  
+body {
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+  background-color: #000000;
+}  
+#scores {
+    background-color: ;
+    border: solid #39ff14;
+    color: #fff;
+}
+#winnerTag {
+    color: #39ff14;
+}

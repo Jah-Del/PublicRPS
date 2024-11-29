@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+           Start
+        </title>
+        <link rel="stylesheet" href="style.css">
+     </head>
+    <body id="bTag">
+        <h1 class ="neonText" id="title">The Great Duel</h1>
+        <br>
+        <hr>
+        <h3 id="selection">Choose Your Fighter:</h3>
+        <div id="Boxes">
+            <table id="tablet">
+                <th id="rock"> <img id="image1" src="https://codehs.com/uploads/0b95d167ff35c419e3b0d312fcdc05f9" height="100px" width="100px" alt="rock"></th>
+                <th id="paper"><img id="image2" src="https://codehs.com/uploads/4ea8a02fd73aa14238731fb525391d3d" height="100px" width="100px" alt="paper"></th>
+                <th id="scissors"><img id="image3" src="https://codehs.com/uploads/58b442f1a01e280bd71d3813c63edf03" height="100px" width="100px" alt="scissors"></th>
+            </table>
+        </div>
+        <br>
+        <button onclick="runForrestRun()" id="button">Click To Play</button>
+        
+        <h1 id="winnerTag">The Winner Is...</h1>
+        <div>
+            <table border="1" id="scores">
+                <tr class="hover">
+                    <th>
+                        Item
+                    </th>
+                    <th> Wins</th>
+                    
+                </tr>
+                <tr id="rockRow" class="hover">
+                    <td id="rockBox">Rock</td>
+                    <td id="rockScore"></td>
+                </tr>
+                <tr id="paperRow" class="hover">
+                    <td id="paperBox">Paper</td>
+                    <td id="paperScore"></td>
+                </tr>
+                <tr class="hover" id="scissorsRow">
+                    <td id="scissorsBox">Scissors</td>
+                    <td id="scissorsScore"></td>
+                    
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
